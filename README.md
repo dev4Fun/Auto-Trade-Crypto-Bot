@@ -4,8 +4,7 @@
 2. Get API keys (api key and secret) for your exchange
 3. Install dependencies: `pip install python-telegram-bot ccxt`
 4. Create secrets.txt in config folder with following content:
-
-    + ```
+ ```
 # YOUR_API_KEY
 # YOUR_SECRET
 # YOUR_TELEGRAM_TOKEN
