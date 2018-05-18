@@ -1,4 +1,4 @@
-from fasttrade.model.trade import TradeDetails
+from model.trade import TradeDetails
 
 
 class LongTrade(TradeDetails):

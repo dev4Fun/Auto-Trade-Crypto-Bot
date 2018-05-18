@@ -5,10 +5,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, \
     ConversationHandler, MessageHandler, BaseFilter, run_async, Filters
 
-from fasttrade.core.tradeexcutor import TradeExecutor
-from fasttrade.model.longtrade import LongTrade
-from fasttrade.model.shorttrade import ShortTrade
-from fasttrade.util import formatter
+from core.tradeexcutor import TradeExecutor
+from util import formatter
 
 TRADE_SELECT = "trade_select"
 SHORT_TRADE = "short_trade"

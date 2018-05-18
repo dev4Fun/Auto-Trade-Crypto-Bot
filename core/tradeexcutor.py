@@ -3,8 +3,8 @@ import logging
 
 from ccxt import ExchangeError
 
-from fasttrade.model.longtrade import LongTrade
-from fasttrade.model.shorttrade import ShortTrade
+from model.longtrade import LongTrade
+from model.shorttrade import ShortTrade
 
 
 class TradeExecutor:

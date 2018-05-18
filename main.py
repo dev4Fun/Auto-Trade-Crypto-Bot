@@ -3,9 +3,9 @@ import os
 
 import ccxt
 
-from fasttrade.core.exchange import CryptoExchange
-from fasttrade.core.telegrambot import TelegramBot
-from fasttrade.core.tradeexcutor import TradeExecutor
+from core.exchange import CryptoExchange
+from core.telegrambot import TelegramBot
+from core.tradeexcutor import TradeExecutor
 
 if __name__ == '__main__':
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
